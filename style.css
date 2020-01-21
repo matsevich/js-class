@@ -1,0 +1,24 @@
+#progress {
+  display: none;
+  background: linear-gradient(to bottom, #333, #999);
+  border: 1px solid #333;
+  height: 20px;
+  width: 200px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+#pro {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  box-shadow: 3px 0 3px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  background: linear-gradient(to bottom, rgb(59, 57, 161), rgb(70, 51, 235));
+  height: 18px;
+  width: 20%;
+}
